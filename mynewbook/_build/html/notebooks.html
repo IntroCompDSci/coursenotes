@@ -53,6 +53,7 @@
     <script type="text/x-mathjax-config">MathJax.Hub.Config({"tex2jax": {"inlineMath": [["\\(", "\\)"]], "displayMath": [["\\[", "\\]"]], "processRefs": false, "processEnvironments": false}})</script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Finding your way around UofT Jupyterhub" href="notebooks2.html" />
     <link rel="prev" title="Markdown Files" href="markdown.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="en" />
@@ -99,6 +100,16 @@
  <li class="toctree-l1 current active">
   <a class="current reference internal" href="#">
    Content with notebooks
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="notebooks2.html">
+   Finding your way around UofT Jupyterhub
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="notebooks3.html">
+   This is yet another page in this great book
   </a>
  </li>
 </ul>
@@ -303,6 +314,21 @@ For example, here’s some sample Matplotlib code:</p>
 </div>
 <p>There is a lot more that you can do with outputs (such as including interactive outputs)
 with your book. For more information about this, see <a class="reference external" href="https://jupyterbook.org">the Jupyter Book documentation</a></p>
+<p>Draw 1000 <span class="math notranslate nohighlight">\(N(0,1)\)</span> samples.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">seed</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+
+<span class="n">x</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">normal</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">1000</span><span class="p">)</span>
+
+<span class="n">plt</span><span class="o">.</span><span class="n">hist</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">color</span> <span class="o">=</span> <span class="s1">&#39;red&#39;</span><span class="p">,</span> <span class="n">edgecolor</span> <span class="o">=</span> <span class="s1">&#39;white&#39;</span><span class="p">);</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<img alt="_images/notebooks_5_0.png" src="_images/notebooks_5_0.png" />
+</div>
+</div>
 </div>
 </div>
 
@@ -332,6 +358,7 @@ with your book. For more information about this, see <a class="reference externa
         <div class='prev-next-bottom'>
             
     <a class='left-prev' id="prev-link" href="markdown.html" title="previous page">Markdown Files</a>
+    <a class='right-next' id="next-link" href="notebooks2.html" title="next page">Finding your way around UofT Jupyterhub</a>
 
         </div>
         

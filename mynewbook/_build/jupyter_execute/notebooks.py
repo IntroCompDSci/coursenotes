@@ -74,3 +74,21 @@ ax.legend(custom_lines, ['Cold', 'Medium', 'Hot']);
 
 # There is a lot more that you can do with outputs (such as including interactive outputs)
 # with your book. For more information about this, see [the Jupyter Book documentation](https://jupyterbook.org)
+
+# Draw 1000 $N(0,1)$ samples.
+
+# In[3]:
+
+
+np.random.seed(1)
+
+x = np.random.normal(0,1,1000)
+
+plt.hist(x, color = 'red', edgecolor = 'white');
+
+
+# In[ ]:
+
+
+
+
