@@ -30,3 +30,6 @@ repository:
 html:
   use_issues_button: true
   use_repository_button: true
+  
+launch_buttons:
+  jupyterhub_url: "http://jupyter.utoronto.ca/"  # The URL for your JupyterHub. (e.g., https://datahub.berkeley.edu)
