@@ -1,16 +1,8 @@
-# Welcome to your Jupyter Book
+# University of Toronto GGR274 - Winter 2022
 
-This is a small sample book to give you a feel for how book content is
-structured.
+## Introductory Computation and Data Science for the Social Sciences 
 
-:::{note}
-Here is a note!
-:::
+### Jupyter notebooks presented in class
 
-And here is a code block:
+A collection of Jupyter notebooks presented in GGR274H1-S 
 
-```
-e = mc^2
-```
-
-Check out the content pages bundled with this sample book to see more.
